@@ -72,10 +72,10 @@ const Hero = () => {
       <div className="relative bg-gradient-to-b from-[#dcebfe] to-yellow-100 bg-opacity-50 p-6 rounded-lg shadow-md">
         <div className="relative z-10 text-center mb-12 text-black">
           <h1 className="text-5xl font-extrabold hero-title mb-4 ">
-            Discover Your Perfect Trip with Globe Guru
+            Discover Your Perfect Trip with Destify AI
           </h1>
           <p className="text-xl hero-description mb-3 font-semibold">
-            Globe Guru is your ultimate AI-powered travel companion. Tell us
+            Destify AI is your ultimate AI-powered travel companion. Tell us
             your travel preferences, and we'll craft the perfect itinerary just
             for you.
           </p>
@@ -91,7 +91,7 @@ const Hero = () => {
             destination, days, budget, and travel group preferences with us.
           </p>
           <Link to="/create-trip">
-            <Button className="py-3 px-6 text-lg font-bold bg-orange-500 hover:bg-orange-600">
+            <Button className="py-3 px-6 text-lg text-black font-bold bg-blue-500 hover:bg-blue-600">
               Start Planning Now
             </Button>
           </Link>

@@ -21,7 +21,8 @@
 // };
 
 import axios from "axios";
-const BASE_URL = "https://places.googleapis.com/v1/places:searchText";
+ const BASE_URL ="https://places.googleapis.com";
+//  "https://places.googleapis.com/v1/places:searchText";
 
 const config = {
   headers: {

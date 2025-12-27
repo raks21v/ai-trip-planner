@@ -43,26 +43,26 @@ const ItineraryCard = ({ plan }) => {
         <img
           className="w-full h-48 object-cover"
           src={photoUrl}
-          alt={plan.placeName}
+          alt={plan?.placeName}
         />
         <div className="p-4">
           <h4 className="text-xl font-semibold mb-2 flex items-center">
             <FaMapMarkerAlt className="text-blue-500 mr-2" />
-            {plan.placeName}
+            {plan?.placeName}
           </h4>
           <p className="flex items-center text-md mb-2 text-gray-700">
             <CiStar className="text-yellow-500 mr-1" />
-            {plan.rating}
+            {plan?.rating}
           </p>
           <p className="flex items-center text-md mb-1 text-gray-600">
             <MdAttachMoney className="text-green-500 mr-1" />
-            Ticket Pricing: {plan.ticketPricing}
+            Ticket Pricing: {plan?.ticketPricing}
           </p>
           <p className="flex items-center text-md mb-1 text-gray-600">
             <FaClock className="text-gray-500 mr-1" />
-            Travel Time: {plan.timeTravel}
+            Travel Time: {plan?.timeTravel}
           </p>
-          <p className="text-md text-gray-600 truncate">{plan.placeDetails}</p>
+          <p className="text-md text-gray-600 truncate">{plan?.placeDetails}</p>
         </div>
       </div>
     </Link>
